@@ -1,8 +1,8 @@
 #pragma once
 //ofAleixo.h
 
-//#include "ofxiOS.h"
-//#include "ofxiOSExtras.h"
+#include "ofxiOS.h"
+#include "ofxiOSExtras.h"
 
 //#include "PoemaOSX.h"
 
@@ -26,7 +26,7 @@
 
 
 
-class OFAleixo : public ofBaseApp{
+class OFAleixo : public ofxiOSApp{
 public:
     void setup();
     void update();

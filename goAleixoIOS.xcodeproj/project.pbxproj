@@ -7,20 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18954F841AA7A8DC005BB673 /* Audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18954F691AA7A8DC005BB673 /* Audio.cpp */; };
 		18954F851AA7A8DC005BB673 /* Audio.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18954F6B1AA7A8DC005BB673 /* Audio.mm */; };
-		18954F861AA7A8DC005BB673 /* Canvas1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18954F6C1AA7A8DC005BB673 /* Canvas1.cpp */; };
-		18954F871AA7A8DC005BB673 /* Canvas2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18954F6E1AA7A8DC005BB673 /* Canvas2.cpp */; };
-		18954F881AA7A8DC005BB673 /* Canvas3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18954F701AA7A8DC005BB673 /* Canvas3.cpp */; };
-		18954F891AA7A8DC005BB673 /* Canvas4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18954F721AA7A8DC005BB673 /* Canvas4.cpp */; };
-		18954F8A1AA7A8DC005BB673 /* Canvas5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18954F741AA7A8DC005BB673 /* Canvas5.cpp */; };
-		18954F8B1AA7A8DC005BB673 /* Canvas6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18954F761AA7A8DC005BB673 /* Canvas6.cpp */; };
-		18954F8C1AA7A8DC005BB673 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18954F791AA7A8DC005BB673 /* main.cpp */; };
-		18954F8D1AA7A8DC005BB673 /* OFAleixo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18954F7A1AA7A8DC005BB673 /* OFAleixo.cpp */; };
-		18954F8E1AA7A8DC005BB673 /* PoemaIOS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18954F7C1AA7A8DC005BB673 /* PoemaIOS.cpp */; };
+		18954F861AA7A8DC005BB673 /* Canvas1.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18954F6C1AA7A8DC005BB673 /* Canvas1.mm */; };
+		18954F871AA7A8DC005BB673 /* Canvas2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18954F6E1AA7A8DC005BB673 /* Canvas2.mm */; };
+		18954F881AA7A8DC005BB673 /* Canvas3.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18954F701AA7A8DC005BB673 /* Canvas3.mm */; };
+		18954F891AA7A8DC005BB673 /* Canvas4.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18954F721AA7A8DC005BB673 /* Canvas4.mm */; };
+		18954F8A1AA7A8DC005BB673 /* Canvas5.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18954F741AA7A8DC005BB673 /* Canvas5.mm */; };
+		18954F8B1AA7A8DC005BB673 /* Canvas6.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18954F761AA7A8DC005BB673 /* Canvas6.mm */; };
+		18954F8D1AA7A8DC005BB673 /* OFAleixo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18954F7A1AA7A8DC005BB673 /* OFAleixo.mm */; };
 		18954F8F1AA7A8DC005BB673 /* PoemaIOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18954F7E1AA7A8DC005BB673 /* PoemaIOS.mm */; };
-		18954F901AA7A8DC005BB673 /* PoemaOSX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18954F7F1AA7A8DC005BB673 /* PoemaOSX.cpp */; };
-		18954F911AA7A8DC005BB673 /* Textos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18954F811AA7A8DC005BB673 /* Textos.cpp */; };
+		18954F901AA7A8DC005BB673 /* PoemaOSX.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18954F7F1AA7A8DC005BB673 /* PoemaOSX.mm */; };
 		18954F921AA7A8DC005BB673 /* Textos.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18954F831AA7A8DC005BB673 /* Textos.mm */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -42,7 +38,6 @@
 		E41D400E13B39D2100A75A5D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41D400913B39D2100A75A5D /* MapKit.framework */; };
 		E41D421413B3A95300A75A5D /* libofxiOS_iphoneos_Debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E41D410213B3A0D800A75A5D /* libofxiOS_iphoneos_Debug.a */; };
 		E4D8936E11527B74007E1F53 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4D8936B11527B74007E1F53 /* main.mm */; };
-		E4D8936F11527B74007E1F53 /* ofApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4D8936D11527B74007E1F53 /* ofApp.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,31 +58,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18954F691AA7A8DC005BB673 /* Audio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Audio.cpp; sourceTree = "<group>"; };
 		18954F6A1AA7A8DC005BB673 /* Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Audio.h; sourceTree = "<group>"; };
 		18954F6B1AA7A8DC005BB673 /* Audio.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Audio.mm; sourceTree = "<group>"; };
-		18954F6C1AA7A8DC005BB673 /* Canvas1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Canvas1.cpp; sourceTree = "<group>"; };
+		18954F6C1AA7A8DC005BB673 /* Canvas1.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Canvas1.mm; sourceTree = "<group>"; };
 		18954F6D1AA7A8DC005BB673 /* Canvas1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas1.h; sourceTree = "<group>"; };
-		18954F6E1AA7A8DC005BB673 /* Canvas2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Canvas2.cpp; sourceTree = "<group>"; };
+		18954F6E1AA7A8DC005BB673 /* Canvas2.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Canvas2.mm; sourceTree = "<group>"; };
 		18954F6F1AA7A8DC005BB673 /* Canvas2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas2.h; sourceTree = "<group>"; };
-		18954F701AA7A8DC005BB673 /* Canvas3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Canvas3.cpp; sourceTree = "<group>"; };
+		18954F701AA7A8DC005BB673 /* Canvas3.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Canvas3.mm; sourceTree = "<group>"; };
 		18954F711AA7A8DC005BB673 /* Canvas3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas3.h; sourceTree = "<group>"; };
-		18954F721AA7A8DC005BB673 /* Canvas4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Canvas4.cpp; sourceTree = "<group>"; };
+		18954F721AA7A8DC005BB673 /* Canvas4.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Canvas4.mm; sourceTree = "<group>"; };
 		18954F731AA7A8DC005BB673 /* Canvas4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas4.h; sourceTree = "<group>"; };
-		18954F741AA7A8DC005BB673 /* Canvas5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Canvas5.cpp; sourceTree = "<group>"; };
+		18954F741AA7A8DC005BB673 /* Canvas5.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Canvas5.mm; sourceTree = "<group>"; };
 		18954F751AA7A8DC005BB673 /* Canvas5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas5.h; sourceTree = "<group>"; };
-		18954F761AA7A8DC005BB673 /* Canvas6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Canvas6.cpp; sourceTree = "<group>"; };
+		18954F761AA7A8DC005BB673 /* Canvas6.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Canvas6.mm; sourceTree = "<group>"; };
 		18954F771AA7A8DC005BB673 /* Canvas6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas6.h; sourceTree = "<group>"; };
 		18954F781AA7A8DC005BB673 /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
-		18954F791AA7A8DC005BB673 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		18954F7A1AA7A8DC005BB673 /* OFAleixo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OFAleixo.cpp; sourceTree = "<group>"; };
+		18954F7A1AA7A8DC005BB673 /* OFAleixo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OFAleixo.mm; sourceTree = "<group>"; };
 		18954F7B1AA7A8DC005BB673 /* OFAleixo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFAleixo.h; sourceTree = "<group>"; };
-		18954F7C1AA7A8DC005BB673 /* PoemaIOS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PoemaIOS.cpp; sourceTree = "<group>"; };
 		18954F7D1AA7A8DC005BB673 /* PoemaIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoemaIOS.h; sourceTree = "<group>"; };
 		18954F7E1AA7A8DC005BB673 /* PoemaIOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PoemaIOS.mm; sourceTree = "<group>"; };
-		18954F7F1AA7A8DC005BB673 /* PoemaOSX.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PoemaOSX.cpp; sourceTree = "<group>"; };
+		18954F7F1AA7A8DC005BB673 /* PoemaOSX.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PoemaOSX.mm; sourceTree = "<group>"; };
 		18954F801AA7A8DC005BB673 /* PoemaOSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoemaOSX.h; sourceTree = "<group>"; };
-		18954F811AA7A8DC005BB673 /* Textos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Textos.cpp; sourceTree = "<group>"; };
 		18954F821AA7A8DC005BB673 /* Textos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Textos.h; sourceTree = "<group>"; };
 		18954F831AA7A8DC005BB673 /* Textos.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Textos.mm; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -116,8 +107,6 @@
 		E41D40FD13B3A0D800A75A5D /* iOS+OFLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "iOS+OFLib.xcodeproj"; path = "../../../libs/openFrameworksCompiled/project/ios/iOS+OFLib.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		E4A823A312561BE3002F86A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E4D8936B11527B74007E1F53 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = src/main.mm; sourceTree = SOURCE_ROOT; };
-		E4D8936C11527B74007E1F53 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
-		E4D8936D11527B74007E1F53 /* ofApp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofApp.mm; path = src/ofApp.mm; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,36 +226,30 @@
 		E4D8936A11527B74007E1F53 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				18954F691AA7A8DC005BB673 /* Audio.cpp */,
 				18954F6A1AA7A8DC005BB673 /* Audio.h */,
 				18954F6B1AA7A8DC005BB673 /* Audio.mm */,
-				18954F6C1AA7A8DC005BB673 /* Canvas1.cpp */,
+				18954F6C1AA7A8DC005BB673 /* Canvas1.mm */,
 				18954F6D1AA7A8DC005BB673 /* Canvas1.h */,
-				18954F6E1AA7A8DC005BB673 /* Canvas2.cpp */,
+				18954F6E1AA7A8DC005BB673 /* Canvas2.mm */,
 				18954F6F1AA7A8DC005BB673 /* Canvas2.h */,
-				18954F701AA7A8DC005BB673 /* Canvas3.cpp */,
+				18954F701AA7A8DC005BB673 /* Canvas3.mm */,
 				18954F711AA7A8DC005BB673 /* Canvas3.h */,
-				18954F721AA7A8DC005BB673 /* Canvas4.cpp */,
+				18954F721AA7A8DC005BB673 /* Canvas4.mm */,
 				18954F731AA7A8DC005BB673 /* Canvas4.h */,
-				18954F741AA7A8DC005BB673 /* Canvas5.cpp */,
+				18954F741AA7A8DC005BB673 /* Canvas5.mm */,
 				18954F751AA7A8DC005BB673 /* Canvas5.h */,
-				18954F761AA7A8DC005BB673 /* Canvas6.cpp */,
+				18954F761AA7A8DC005BB673 /* Canvas6.mm */,
 				18954F771AA7A8DC005BB673 /* Canvas6.h */,
 				18954F781AA7A8DC005BB673 /* global.h */,
-				18954F791AA7A8DC005BB673 /* main.cpp */,
-				18954F7A1AA7A8DC005BB673 /* OFAleixo.cpp */,
+				18954F7A1AA7A8DC005BB673 /* OFAleixo.mm */,
 				18954F7B1AA7A8DC005BB673 /* OFAleixo.h */,
-				18954F7C1AA7A8DC005BB673 /* PoemaIOS.cpp */,
 				18954F7D1AA7A8DC005BB673 /* PoemaIOS.h */,
 				18954F7E1AA7A8DC005BB673 /* PoemaIOS.mm */,
-				18954F7F1AA7A8DC005BB673 /* PoemaOSX.cpp */,
+				18954F7F1AA7A8DC005BB673 /* PoemaOSX.mm */,
 				18954F801AA7A8DC005BB673 /* PoemaOSX.h */,
-				18954F811AA7A8DC005BB673 /* Textos.cpp */,
 				18954F821AA7A8DC005BB673 /* Textos.h */,
 				18954F831AA7A8DC005BB673 /* Textos.mm */,
 				E4D8936B11527B74007E1F53 /* main.mm */,
-				E4D8936D11527B74007E1F53 /* ofApp.mm */,
-				E4D8936C11527B74007E1F53 /* ofApp.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -373,21 +356,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				18954F8F1AA7A8DC005BB673 /* PoemaIOS.mm in Sources */,
-				18954F871AA7A8DC005BB673 /* Canvas2.cpp in Sources */,
-				18954F911AA7A8DC005BB673 /* Textos.cpp in Sources */,
+				18954F871AA7A8DC005BB673 /* Canvas2.mm in Sources */,
 				E4D8936E11527B74007E1F53 /* main.mm in Sources */,
-				18954F8E1AA7A8DC005BB673 /* PoemaIOS.cpp in Sources */,
-				18954F861AA7A8DC005BB673 /* Canvas1.cpp in Sources */,
-				E4D8936F11527B74007E1F53 /* ofApp.mm in Sources */,
-				18954F8C1AA7A8DC005BB673 /* main.cpp in Sources */,
-				18954F891AA7A8DC005BB673 /* Canvas4.cpp in Sources */,
+				18954F861AA7A8DC005BB673 /* Canvas1.mm in Sources */,
+				18954F891AA7A8DC005BB673 /* Canvas4.mm in Sources */,
 				18954F851AA7A8DC005BB673 /* Audio.mm in Sources */,
-				18954F8B1AA7A8DC005BB673 /* Canvas6.cpp in Sources */,
-				18954F8D1AA7A8DC005BB673 /* OFAleixo.cpp in Sources */,
-				18954F901AA7A8DC005BB673 /* PoemaOSX.cpp in Sources */,
-				18954F8A1AA7A8DC005BB673 /* Canvas5.cpp in Sources */,
-				18954F841AA7A8DC005BB673 /* Audio.cpp in Sources */,
-				18954F881AA7A8DC005BB673 /* Canvas3.cpp in Sources */,
+				18954F8B1AA7A8DC005BB673 /* Canvas6.mm in Sources */,
+				18954F8D1AA7A8DC005BB673 /* OFAleixo.mm in Sources */,
+				18954F901AA7A8DC005BB673 /* PoemaOSX.mm in Sources */,
+				18954F8A1AA7A8DC005BB673 /* Canvas5.mm in Sources */,
+				18954F881AA7A8DC005BB673 /* Canvas3.mm in Sources */,
 				18954F921AA7A8DC005BB673 /* Textos.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -21,9 +21,9 @@ OFAleixo :: ~OFAleixo () {
         
         
         
-        ofSetOrientation(OF_ORIENTATION_90_RIGHT);
+//        ofSetOrientation(OF_ORIENTATION_90_RIGHT);
 
-        //ofSetOrientation(OF_ORIENTATION_DEFAULT);
+        ofSetOrientation(OF_ORIENTATION_DEFAULT);
 
         canvas1.setup();
         canvas2.setup();

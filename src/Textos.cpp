@@ -64,11 +64,11 @@ void Textos::setup(){
 }
 
 
-void Textos::draw(){
+void Textos::draw(int screen_){
     fbo.begin();
     ofClear(255,255,255);
     
-    ofLog() << xs_global << endl;
+//    ofLog() << xs_global << endl;
     
     
     for (int i = 0; i< nunberOfLines; i++){
